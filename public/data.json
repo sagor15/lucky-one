@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "picture": "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 440,
+      "name": "laptop color"
+    },
+    {
+      "id": 2,
+      "picture": "https://images.unsplash.com/photo-1629131726692-1accd0c53ce0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 357,
+      "name": "dell laptop"
+    },
+    {
+      "id": 3,
+      "picture": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bGFwdG9wc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 384,
+      "name": "samsong b2 laptop"
+    },
+    {
+      "id": 4,
+      "picture": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 219,
+      "name": "Shirley laptop"
+    },
+    {
+      "id": 5,
+      "picture": "https://images.unsplash.com/photo-1544099858-75feeb57f01b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "price": 200,
+      "name": "walton a2 laptop"
+    }
+    ,
+    {
+      "id": 6,
+      "picture": "https://images.unsplash.com/photo-1542393545-10f5cde2c810?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bGFwdG9wc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 300,
+      "name": "apple laptop"
+    } ,
+    {
+      "id": 7,
+      "picture": "https://images.unsplash.com/photo-1578950435899-d1c1bf932ab2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGxhcHRvcHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "price": 260,
+      "name": "lenova laptop"
+    } ,
+    {
+      "id":8,
+      "picture": "https://media.istockphoto.com/photos/laptop-computer-with-blue-pink-lighting-and-blank-screen-place-on-picture-id1292038829?b=1&k=20&m=1292038829&s=170667a&w=0&h=L8DhcSOFS3BZdCHN6ldjumqQBw0J2kk7mBagO5io5jM=",
+      "price":280,
+      "name": "color laptop"
+    } ,
+    {
+      "id": 9,
+      "picture": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2F0Y2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "price": 150,
+      "name": "red round watch"
+    } ,
+    {
+      "id": 10,
+      "picture": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2F0Y2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "price": 300,
+      "name": "rolex white watch"
+    }
+     ,
+    {
+      "id": 11,
+      "picture": "https://images.unsplash.com/photo-1511370235399-1802cae1d32f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdhdGNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 308,
+      "name": "digital watch"
+    }
+    ,
+    {
+      "id": 12,
+      "picture": "https://images.unsplash.com/photo-1622434641406-a158123450f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHdhdGNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 210,
+      "name": "balck and silver watch"
+    }
+    ,
+    {
+      "id": 13,
+      "picture": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdhdGNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 230,
+      "name": "Rolex balck analog watch"
+    }
+    ,
+    {
+      "id": 14,
+      "picture": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHdhdGNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 150,
+      "name": "black analog watch"
+    }
+    ,
+    {
+      "id": 15,
+      "picture": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d2F0Y2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "price": 120,
+      "name": "analog watch"
+    }
+    
+  ]

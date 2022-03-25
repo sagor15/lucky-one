@@ -1,0 +1,37 @@
+.header {
+  background-color: #4f1717;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  margin-left: 36px;
+  font-size: 20px;
+}
+.header a:hover {
+  color: rgb(105, 252, 171);
+}
+.sr {
+  color: rgb(105, 252, 171);
+}
+
+@media screen and (max-width: 600px) {
+  .header a {
+    display: none;
+  }
+  .first-div {
+    margin: auto;
+  }
+  .header {
+    background-color: black;
+    height: 80px;
+    width: 112%;
+  }
+  .header a:hover {
+    display: none;
+  }
+}

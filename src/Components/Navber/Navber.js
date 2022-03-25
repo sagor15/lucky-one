@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Navber.css";
 
-const Navber = () => {
+const Navber = ({openModal}) => {
+    console.log(openModal)
     return (
         <div className='header'>
             <div>
@@ -10,8 +11,7 @@ const Navber = () => {
             <div>
                 <a href="/shop">Shop</a>
                 <a href="/orders">Orders</a>
-                <a href="/oreder-reveiw">Order Review</a>
-                <a href="/about">About</a>
+                <button onClick={openModal}>Open Modal</button>
             </div>
         </div>
     );

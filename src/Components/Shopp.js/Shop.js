@@ -7,20 +7,20 @@ import "./Shop.css";
 const Shop = () => {
     const [products , setProducts] = useState([]);
     const [card , setCard] = useState([]);
-    const [item , setItem] = useState([])
+    const [item , setItem] = useState([]);
+    // const [items , setItems]=useState([]);
+
+    const removeBtn=(item)=>{
+        // console.log(card);
+        setCard([]);
+        setItem([]);
+    }
 
     const orderBtn=(item)=>{
-        console.log('add hoise');
-       
-        console.log(card);
-       
         const newItem = Math.floor(Math.random()* card.length);
         console.log(newItem);
         // setItem(newItem);
         setItem(card[newItem]);
-       
-
-        
     }
     
     const handleAddToCard = (product)=>{
@@ -37,7 +37,6 @@ const Shop = () => {
     return (
 
         <div className='shop-container'>
-        
         <div className='container'>
             {
                 products.map((product)=>(<Card
@@ -57,22 +56,22 @@ const Shop = () => {
         
                 card.map((item=>(<Order 
                   orderBtn={orderBtn} 
+                  removeBtn={removeBtn}
                   item={item}
                   key={item.id}
                 />)))
             }
             
-            <button onClick={()=>orderBtn()}>chose for me</button>
+            <button onClick={()=>orderBtn()} key={card.id}>chose 1 for me</button>
+            <button onClick={()=>removeBtn()}>chose again</button>
             {
                 <div>
-
                 <h2>{item.name}</h2>
-                <img src={item.picture} alt="" />
+                <img className='btn-img' src={item.picture} alt="" />
                 </div>
             }
+
       </div>
-      
-      
         </div>
     );
 };

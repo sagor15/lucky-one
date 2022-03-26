@@ -7,11 +7,28 @@ import "./Shop.css";
 const Shop = () => {
     const [products , setProducts] = useState([]);
     const [card , setCard] = useState([]);
+    const [item , setItem] = useState([])
+
+    const orderBtn=(item)=>{
+        console.log('add hoise');
+       
+        console.log(card);
+       
+        const newItem = Math.floor(Math.random()* card.length);
+        console.log(newItem);
+        // setItem(newItem);
+        setItem(card[newItem]);
+       
+
+        
+    }
     
     const handleAddToCard = (product)=>{
-        const newCard = [...card , product];
-        setCard( newCard);
+            const newCard = [...card , product];
+            setCard( newCard);
     }
+
+    
 
     useEffect(()=>{
         fetch("data.json")
@@ -32,18 +49,30 @@ const Shop = () => {
             }
       
         </div>
+       
         <div className='container-1'>
         <h3>Order Summary</h3>
+        
             {
         
                 card.map((item=>(<Order 
-                    
+                  orderBtn={orderBtn} 
                   item={item}
                   key={item.id}
                 />)))
             }
-          
+            
+            <button onClick={()=>orderBtn()}>chose for me</button>
+            {
+                <div>
+
+                <h2>{item.name}</h2>
+                <img src={item.picture} alt="" />
+                </div>
+            }
       </div>
+      
+      
         </div>
     );
 };

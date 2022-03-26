@@ -10,23 +10,24 @@ const Shop = () => {
     const [item , setItem] = useState([]);
     // const [items , setItems]=useState([]);
 
-    const removeBtn=(item)=>{
+    const removeBtn=()=>{
         // console.log(card);
         setCard([]);
         setItem([]);
     }
 
-    const orderBtn=(item)=>{
+    const orderBtn=()=>{
         const newItem = Math.floor(Math.random()* card.length);
-        console.log(newItem);
+        // console.log(newItem);
         // setItem(newItem);
         setItem(card[newItem]);
-    }
-    
+    };
     const handleAddToCard = (product)=>{
-            const newCard = [...card , product];
-            setCard( newCard);
-    }
+        const newCard = [...card , product];
+        setCard( newCard);
+}
+    
+   
 
     
 
@@ -65,9 +66,9 @@ const Shop = () => {
             <button onClick={()=>orderBtn()} key={card.id}>chose 1 for me</button>
             <button onClick={()=>removeBtn()}>chose again</button>
             {
-                <div>
+                <div className='btn-img'>
                 <h2>{item.name}</h2>
-                <img className='btn-img' src={item.picture} alt="" />
+                <img  src={item.picture} alt="" />
                 </div>
             }
 
